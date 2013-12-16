@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D98D97E3185EF0250024760B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D97E2185EF0250024760B /* Foundation.framework */; };
+		D98D97E5185EF0250024760B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D97E4185EF0250024760B /* CoreGraphics.framework */; };
+		D98D97E7185EF0250024760B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D97E6185EF0250024760B /* UIKit.framework */; };
+		D98D97ED185EF0250024760B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D98D97EB185EF0250024760B /* InfoPlist.strings */; };
+		D98D97EF185EF0250024760B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D97EE185EF0250024760B /* main.m */; };
+		D98D97F3185EF0250024760B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D97F2185EF0250024760B /* AppDelegate.m */; };
+		D98D97F6185EF0250024760B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98D97F4185EF0250024760B /* Main.storyboard */; };
+		D98D97F9185EF0250024760B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D97F8185EF0250024760B /* ViewController.m */; };
+		D98D97FB185EF0250024760B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98D97FA185EF0250024760B /* Images.xcassets */; };
+		D98D9802185EF0250024760B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D9801185EF0250024760B /* XCTest.framework */; };
+		D98D9803185EF0250024760B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D97E2185EF0250024760B /* Foundation.framework */; };
+		D98D9804185EF0250024760B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D97E6185EF0250024760B /* UIKit.framework */; };
+		D98D980C185EF0250024760B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D98D980A185EF0250024760B /* InfoPlist.strings */; };
+		D98D980E185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D980D185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D98D9805185EF0250024760B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98D97D7185EF0250024760B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98D97DE185EF0250024760B;
+			remoteInfo = iOSSecondStageAdventCaledar2013;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D98D97DF185EF0250024760B /* iOSSecondStageAdventCaledar2013.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSecondStageAdventCaledar2013.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98D97E2185EF0250024760B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D98D97E4185EF0250024760B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D98D97E6185EF0250024760B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D98D97EA185EF0250024760B /* iOSSecondStageAdventCaledar2013-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSSecondStageAdventCaledar2013-Info.plist"; sourceTree = "<group>"; };
+		D98D97EC185EF0250024760B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D98D97EE185EF0250024760B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D98D97F0185EF0250024760B /* iOSSecondStageAdventCaledar2013-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSSecondStageAdventCaledar2013-Prefix.pch"; sourceTree = "<group>"; };
+		D98D97F1185EF0250024760B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D98D97F2185EF0250024760B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D98D97F5185EF0250024760B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98D97F7185EF0250024760B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D98D97F8185EF0250024760B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D98D97FA185EF0250024760B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D98D9800185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSecondStageAdventCaledar2013Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98D9801185EF0250024760B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D98D9809185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSSecondStageAdventCaledar2013Tests-Info.plist"; sourceTree = "<group>"; };
+		D98D980B185EF0250024760B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D98D980D185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSecondStageAdventCaledar2013Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D98D97DC185EF0250024760B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98D97E5185EF0250024760B /* CoreGraphics.framework in Frameworks */,
+				D98D97E7185EF0250024760B /* UIKit.framework in Frameworks */,
+				D98D97E3185EF0250024760B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98D97FD185EF0250024760B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98D9802185EF0250024760B /* XCTest.framework in Frameworks */,
+				D98D9804185EF0250024760B /* UIKit.framework in Frameworks */,
+				D98D9803185EF0250024760B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D98D97D6185EF0250024760B = {
+			isa = PBXGroup;
+			children = (
+				D98D97E8185EF0250024760B /* iOSSecondStageAdventCaledar2013 */,
+				D98D9807185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests */,
+				D98D97E1185EF0250024760B /* Frameworks */,
+				D98D97E0185EF0250024760B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D98D97E0185EF0250024760B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D98D97DF185EF0250024760B /* iOSSecondStageAdventCaledar2013.app */,
+				D98D9800185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D98D97E1185EF0250024760B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D98D97E2185EF0250024760B /* Foundation.framework */,
+				D98D97E4185EF0250024760B /* CoreGraphics.framework */,
+				D98D97E6185EF0250024760B /* UIKit.framework */,
+				D98D9801185EF0250024760B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98D97E8185EF0250024760B /* iOSSecondStageAdventCaledar2013 */ = {
+			isa = PBXGroup;
+			children = (
+				D98D97F1185EF0250024760B /* AppDelegate.h */,
+				D98D97F2185EF0250024760B /* AppDelegate.m */,
+				D98D97F4185EF0250024760B /* Main.storyboard */,
+				D98D97F7185EF0250024760B /* ViewController.h */,
+				D98D97F8185EF0250024760B /* ViewController.m */,
+				D98D97FA185EF0250024760B /* Images.xcassets */,
+				D98D97E9185EF0250024760B /* Supporting Files */,
+			);
+			path = iOSSecondStageAdventCaledar2013;
+			sourceTree = "<group>";
+		};
+		D98D97E9185EF0250024760B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D98D97EA185EF0250024760B /* iOSSecondStageAdventCaledar2013-Info.plist */,
+				D98D97EB185EF0250024760B /* InfoPlist.strings */,
+				D98D97EE185EF0250024760B /* main.m */,
+				D98D97F0185EF0250024760B /* iOSSecondStageAdventCaledar2013-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D98D9807185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D98D980D185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.m */,
+				D98D9808185EF0250024760B /* Supporting Files */,
+			);
+			path = iOSSecondStageAdventCaledar2013Tests;
+			sourceTree = "<group>";
+		};
+		D98D9808185EF0250024760B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D98D9809185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests-Info.plist */,
+				D98D980A185EF0250024760B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D98D97DE185EF0250024760B /* iOSSecondStageAdventCaledar2013 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98D9811185EF0250024760B /* Build configuration list for PBXNativeTarget "iOSSecondStageAdventCaledar2013" */;
+			buildPhases = (
+				D98D97DB185EF0250024760B /* Sources */,
+				D98D97DC185EF0250024760B /* Frameworks */,
+				D98D97DD185EF0250024760B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSSecondStageAdventCaledar2013;
+			productName = iOSSecondStageAdventCaledar2013;
+			productReference = D98D97DF185EF0250024760B /* iOSSecondStageAdventCaledar2013.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D98D97FF185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98D9814185EF0250024760B /* Build configuration list for PBXNativeTarget "iOSSecondStageAdventCaledar2013Tests" */;
+			buildPhases = (
+				D98D97FC185EF0250024760B /* Sources */,
+				D98D97FD185EF0250024760B /* Frameworks */,
+				D98D97FE185EF0250024760B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98D9806185EF0250024760B /* PBXTargetDependency */,
+			);
+			name = iOSSecondStageAdventCaledar2013Tests;
+			productName = iOSSecondStageAdventCaledar2013Tests;
+			productReference = D98D9800185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D98D97D7185EF0250024760B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tochi;
+				TargetAttributes = {
+					D98D97FF185EF0250024760B = {
+						TestTargetID = D98D97DE185EF0250024760B;
+					};
+				};
+			};
+			buildConfigurationList = D98D97DA185EF0250024760B /* Build configuration list for PBXProject "iOSSecondStageAdventCaledar2013" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D98D97D6185EF0250024760B;
+			productRefGroup = D98D97E0185EF0250024760B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D98D97DE185EF0250024760B /* iOSSecondStageAdventCaledar2013 */,
+				D98D97FF185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D98D97DD185EF0250024760B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98D97FB185EF0250024760B /* Images.xcassets in Resources */,
+				D98D97ED185EF0250024760B /* InfoPlist.strings in Resources */,
+				D98D97F6185EF0250024760B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98D97FE185EF0250024760B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98D980C185EF0250024760B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D98D97DB185EF0250024760B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98D97F9185EF0250024760B /* ViewController.m in Sources */,
+				D98D97F3185EF0250024760B /* AppDelegate.m in Sources */,
+				D98D97EF185EF0250024760B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98D97FC185EF0250024760B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98D980E185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D98D9806185EF0250024760B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98D97DE185EF0250024760B /* iOSSecondStageAdventCaledar2013 */;
+			targetProxy = D98D9805185EF0250024760B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D98D97EB185EF0250024760B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98D97EC185EF0250024760B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D98D97F4185EF0250024760B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98D97F5185EF0250024760B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98D980A185EF0250024760B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98D980B185EF0250024760B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D98D980F185EF0250024760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D98D9810185EF0250024760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D98D9812185EF0250024760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSSecondStageAdventCaledar2013/iOSSecondStageAdventCaledar2013-Prefix.pch";
+				INFOPLIST_FILE = "iOSSecondStageAdventCaledar2013/iOSSecondStageAdventCaledar2013-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D98D9813185EF0250024760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSSecondStageAdventCaledar2013/iOSSecondStageAdventCaledar2013-Prefix.pch";
+				INFOPLIST_FILE = "iOSSecondStageAdventCaledar2013/iOSSecondStageAdventCaledar2013-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D98D9815185EF0250024760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSSecondStageAdventCaledar2013.app/iOSSecondStageAdventCaledar2013";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSSecondStageAdventCaledar2013/iOSSecondStageAdventCaledar2013-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSSecondStageAdventCaledar2013Tests/iOSSecondStageAdventCaledar2013Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D98D9816185EF0250024760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSSecondStageAdventCaledar2013.app/iOSSecondStageAdventCaledar2013";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSSecondStageAdventCaledar2013/iOSSecondStageAdventCaledar2013-Prefix.pch";
+				INFOPLIST_FILE = "iOSSecondStageAdventCaledar2013Tests/iOSSecondStageAdventCaledar2013Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D98D97DA185EF0250024760B /* Build configuration list for PBXProject "iOSSecondStageAdventCaledar2013" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98D980F185EF0250024760B /* Debug */,
+				D98D9810185EF0250024760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98D9811185EF0250024760B /* Build configuration list for PBXNativeTarget "iOSSecondStageAdventCaledar2013" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98D9812185EF0250024760B /* Debug */,
+				D98D9813185EF0250024760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D98D9814185EF0250024760B /* Build configuration list for PBXNativeTarget "iOSSecondStageAdventCaledar2013Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98D9815185EF0250024760B /* Debug */,
+				D98D9816185EF0250024760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D98D97D7185EF0250024760B /* Project object */;
+}
