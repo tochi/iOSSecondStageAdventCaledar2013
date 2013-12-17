@@ -14,13 +14,15 @@
 		D98D97EF185EF0250024760B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D97EE185EF0250024760B /* main.m */; };
 		D98D97F3185EF0250024760B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D97F2185EF0250024760B /* AppDelegate.m */; };
 		D98D97F6185EF0250024760B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98D97F4185EF0250024760B /* Main.storyboard */; };
-		D98D97F9185EF0250024760B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D97F8185EF0250024760B /* ViewController.m */; };
 		D98D97FB185EF0250024760B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98D97FA185EF0250024760B /* Images.xcassets */; };
 		D98D9802185EF0250024760B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D9801185EF0250024760B /* XCTest.framework */; };
 		D98D9803185EF0250024760B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D97E2185EF0250024760B /* Foundation.framework */; };
 		D98D9804185EF0250024760B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D97E6185EF0250024760B /* UIKit.framework */; };
 		D98D980C185EF0250024760B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D98D980A185EF0250024760B /* InfoPlist.strings */; };
 		D98D980E185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D980D185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.m */; };
+		D98D9819185EF12B0024760B /* Pattern1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D9818185EF12B0024760B /* Pattern1ViewController.m */; };
+		D98D981C185F040B0024760B /* Pattern2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D981B185F040B0024760B /* Pattern2ViewController.m */; };
+		D98D981F185F306D0024760B /* Pattern3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D981E185F306D0024760B /* Pattern3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		D98D97F1185EF0250024760B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D98D97F2185EF0250024760B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D98D97F5185EF0250024760B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D98D97F7185EF0250024760B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D98D97F8185EF0250024760B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D98D97FA185EF0250024760B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D98D9800185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSecondStageAdventCaledar2013Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98D9801185EF0250024760B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D98D9809185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSSecondStageAdventCaledar2013Tests-Info.plist"; sourceTree = "<group>"; };
 		D98D980B185EF0250024760B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D98D980D185EF0250024760B /* iOSSecondStageAdventCaledar2013Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSecondStageAdventCaledar2013Tests.m; sourceTree = "<group>"; };
+		D98D9817185EF12B0024760B /* Pattern1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pattern1ViewController.h; sourceTree = "<group>"; };
+		D98D9818185EF12B0024760B /* Pattern1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pattern1ViewController.m; sourceTree = "<group>"; };
+		D98D981A185F040B0024760B /* Pattern2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pattern2ViewController.h; sourceTree = "<group>"; };
+		D98D981B185F040B0024760B /* Pattern2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pattern2ViewController.m; sourceTree = "<group>"; };
+		D98D981D185F306D0024760B /* Pattern3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pattern3ViewController.h; sourceTree = "<group>"; };
+		D98D981E185F306D0024760B /* Pattern3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pattern3ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,12 @@
 				D98D97F1185EF0250024760B /* AppDelegate.h */,
 				D98D97F2185EF0250024760B /* AppDelegate.m */,
 				D98D97F4185EF0250024760B /* Main.storyboard */,
-				D98D97F7185EF0250024760B /* ViewController.h */,
-				D98D97F8185EF0250024760B /* ViewController.m */,
+				D98D9817185EF12B0024760B /* Pattern1ViewController.h */,
+				D98D9818185EF12B0024760B /* Pattern1ViewController.m */,
+				D98D981A185F040B0024760B /* Pattern2ViewController.h */,
+				D98D981B185F040B0024760B /* Pattern2ViewController.m */,
+				D98D981D185F306D0024760B /* Pattern3ViewController.h */,
+				D98D981E185F306D0024760B /* Pattern3ViewController.m */,
 				D98D97FA185EF0250024760B /* Images.xcassets */,
 				D98D97E9185EF0250024760B /* Supporting Files */,
 			);
@@ -249,8 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98D97F9185EF0250024760B /* ViewController.m in Sources */,
 				D98D97F3185EF0250024760B /* AppDelegate.m in Sources */,
+				D98D9819185EF12B0024760B /* Pattern1ViewController.m in Sources */,
+				D98D981C185F040B0024760B /* Pattern2ViewController.m in Sources */,
+				D98D981F185F306D0024760B /* Pattern3ViewController.m in Sources */,
 				D98D97EF185EF0250024760B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

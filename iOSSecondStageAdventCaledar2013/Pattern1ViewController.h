@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Pattern1ViewController.h
 //  iOSSecondStageAdventCaledar2013
 //
 //  Created by tochi on 2013/12/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Pattern1ViewController : UITableViewController
 
 @end
